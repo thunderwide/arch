@@ -1,0 +1,29 @@
+{
+    "name": "thunderwide/arch",
+    "description": "Resolve dependencies and register concrete class to automatically call the implemented of interface's methods",
+    "type": "library",
+    "require-dev": {
+        "orchestra/testbench": "^3.5",
+        "phpunit/phpunit": "^6.4"
+    },
+    "require": {},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Norlihazmey Ghazali",
+            "email": "norlihazmey89@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Thunderwide\\Arch\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Thunderwide\\Arch\\Test": "tests"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
