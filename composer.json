@@ -21,7 +21,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Thunderwide\\Arch\\Test": "tests"
+            "Thunderwide\\Arch\\Test\\": "tests"
         }
     },
     "minimum-stability": "dev",
